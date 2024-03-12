@@ -1,0 +1,9 @@
+.container--main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #b6ccfe;
+  height: 100%;
+  width: auto;
+  padding: 20px;
+}

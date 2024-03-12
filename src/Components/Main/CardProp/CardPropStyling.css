@@ -1,0 +1,27 @@
+.contact--card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 300px;
+  width: 250px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.236);
+  border-radius: 20px;
+  background-color: #edf2fb;
+  color: #294a50;
+  text-shadow: 0px 0px 3px #d7e3fc;
+}
+
+.Profile--Img {
+  margin-top: 10px;
+  height: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+  max-width: auto;
+}
+
+.contact--voting {
+  display: flex;
+  margin-left: 10px;
+}
