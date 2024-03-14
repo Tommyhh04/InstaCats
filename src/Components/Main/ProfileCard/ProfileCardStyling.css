@@ -2,7 +2,15 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #b6ccfe;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(85, 170, 197, 1) 28%,
+    rgba(135, 85, 196, 1) 62%,
+    rgba(131, 85, 199, 1) 86%,
+    rgba(70, 187, 252, 1) 100%
+  );
   height: 100%;
   width: auto;
   padding: 20px;

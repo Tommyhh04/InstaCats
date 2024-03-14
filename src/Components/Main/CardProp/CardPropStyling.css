@@ -11,6 +11,7 @@
   background-color: #edf2fb;
   color: #294a50;
   text-shadow: 0px 0px 3px #d7e3fc;
+  margin: 30px;
 }
 
 .Profile--Img {
@@ -24,4 +25,30 @@
 .contact--voting {
   display: flex;
   margin-left: 10px;
+  padding: 10px;
+}
+
+.Upvote {
+  background: linear-gradient(
+    0deg,
+    rgba(61, 195, 34, 1) 38%,
+    rgba(45, 253, 205, 1) 67%
+  );
+}
+.Downvote {
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 34, 1) 25%,
+    rgba(222, 39, 209, 1) 42%,
+    rgba(253, 45, 150, 1) 62%
+  );
+}
+
+.Upvote,
+.Downvote {
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 100%;
 }
